@@ -100,6 +100,8 @@ def events():
 творительный – ins
 предложный – abl
 '''
+
+# позже функция get_user() будет упакована более компактно
 def get_user(id,type):
    if type == 1:
     req = requests.get("https://api.vk.com/method/users.get?v=5.52&access_token=%s&user_ids=%s&name_case=nom" % (
