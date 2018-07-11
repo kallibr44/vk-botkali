@@ -7,7 +7,7 @@ import threading
 import main
 import igra
 
-access_token = '9здесь User API'
+access_token = 'здесь User API'
 server = []
 users = []
 ch = 0
