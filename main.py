@@ -18,7 +18,7 @@ def get_html(url):
     request = requests.get(url)
     return request.text
 
-
+# здесь старые функции от другого проекта, не брать во внимание <old>
 def main():
     parse(get_html('http://coko.tomsk.ru/exam2018/default.aspx'))
 
@@ -95,7 +95,7 @@ def check(id):
     if counter == 1:
         main()
         counter = 0
-
+# </old>
 if __name__ == '__main__':
  bot.init()
  bot.hello()
